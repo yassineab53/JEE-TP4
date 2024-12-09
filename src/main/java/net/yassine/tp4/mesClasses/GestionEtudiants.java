@@ -8,7 +8,7 @@ public class GestionEtudiants {
     @Getter
     public static ArrayList<Etudiant> listeEtudiants = new ArrayList<>();
 
-    /*public static String im1 = "../images/image1.jpeg";
+    public static String im1 = "../images/image1.jpeg";
     public static String im2 = "../images/image2.jpeg";
     public static String im3 = "../images/image3.jpeg";
     public static String im4 = "../images/image4.jpeg";
@@ -21,7 +21,7 @@ public class GestionEtudiants {
         listeEtudiants.add(new Etudiant("3", "Lara", 9.0, im3));
         listeEtudiants.add(new Etudiant("4", "Lina", 15.0,im4));
         listeEtudiants.add(new Etudiant("5", "Hajar", 8.0,im5));
-    }*/
+    }
 
 
 

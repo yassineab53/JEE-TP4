@@ -10,6 +10,8 @@
     <title>Title</title>
   </head>
   <body>
-
+        <%
+        liste = GestionEtudiants.listeEtudiants;
+         %>
   </body>
 </html>
