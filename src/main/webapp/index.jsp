@@ -11,5 +11,6 @@
 <a href="exemple1.jsp">Exemple1</a><br><br>
 <a href="exemple2.jsp">Exemple2</a><br><br>
 <a href="exemple3.jsp">Exemple3</a><br><br>
+<a href="affichageEtudiants.jsp">Affichage des étudiants </a><br><br>
 </body>
 </html>

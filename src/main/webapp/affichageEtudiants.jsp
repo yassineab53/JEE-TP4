@@ -12,6 +12,9 @@
   <body>
         <%
         liste = GestionEtudiants.listeEtudiants;
+         for(int i=0;i<liste.length;i++) {
+                   <%= liste[i]%>
+         }
          %>
   </body>
 </html>
