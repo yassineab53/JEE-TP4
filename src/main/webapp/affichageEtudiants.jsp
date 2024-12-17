@@ -7,14 +7,17 @@
 <%! private ArrayList<Etudiant> liste = new ArrayList<Etudiant>();%>
 <html>
   <head>
-    <title>Title</title>
+    <title>Affichage etudiants</title>
   </head>
   <body>
-        <%
-        liste = GestionEtudiants.listeEtudiants;
-         for(int i=0;i<liste.length;i++) {
-                   <%= liste[i]%>
-         }
-         %>
+
+        <h1>Liste des Etudiants</h1>
+
+        <% liste = GestionEtudiants.listeEtudiants; %>
+        <% for(int i=0;i<liste.size();i++) { %>
+        <%= liste.get(i).getNom() %> <br>
+
+        <% } %>
+
   </body>
 </html>
